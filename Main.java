@@ -24,6 +24,7 @@ public class Main implements ActionListener {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Exit app on close
 		frame.setSize(420, 550); // Size of the frame
 		frame.setLayout(null);
+		frame.setResizable(false);
 		
 		textfield = new JTextField(); // Declare textfield as JTextField
 		textfield.setBounds(50, 25, 300, 50); // Location of the TextField
